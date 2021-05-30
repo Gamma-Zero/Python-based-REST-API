@@ -28,7 +28,6 @@ def call():
 	img=Image.open(uploaded_file)
 	x,y=img.size
 	l=img.getpixel((0,0))
-	print(l)
 	global z
 	z=rgb2hex(l[0],l[1],l[2])
 	d={}
