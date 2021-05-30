@@ -49,8 +49,6 @@ def call():
 		if(mx==d[i]):
 			a=i
 			break
-	for i in d:
-		print(i,' ',d[i])
 
 if __name__ == '__main__':
 	app.debug=True
